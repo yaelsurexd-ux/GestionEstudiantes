@@ -10,24 +10,6 @@ public class Estudiante extends Persona {
         this.carrera = carrera;
     }
 
-    // Getters y Setters: métodos para acceder y modificar los atributos
-
-    public String getNombre() {
-        return nombre; // Devuelve el nombre
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre; // Cambia el nombre
-    }
-
-    public int getEdad() {
-        return edad; // Devuelve la edad
-    }
-
-    public void setEdad(int edad) {
-        this.edad = edad; // Cambia la edad
-    }
-
     public String getCarrera() {
         return carrera; // Devuelve la carrera
     }
