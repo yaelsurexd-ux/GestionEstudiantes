@@ -11,7 +11,10 @@ public class Main {
         Estudiante estudiante1 = new Estudiante("Ana", 20, "Ingeniería");
         Estudiante estudiante2 = new Estudiante("Luis", 22, "Medicina");
         Estudiante estudiante3 = new Estudiante("Carla", 19, "Derecho");
-
+        
+        // Creamos un profesor
+        Profesor profesor1 = new Profesor("Dr. García", 50, "Matemáticas");
+        
         // Agregamos los estudiantes a la lista
         listaEstudiantes.add(estudiante1);
         listaEstudiantes.add(estudiante2);
@@ -22,6 +25,10 @@ public class Main {
         for (Estudiante e : listaEstudiantes) {
             e.mostrarInformacion();
         }
+
+        // Mostramos la informacion de el profesor
+        System.out.println("=== Información del Profesor ===");
+        profesor1.mostrarProfesor();
 
         // Ejemplo de actualización de datos
         estudiante1.setCarrera("Arquitectura"); // Cambiamos la carrera de Ana
