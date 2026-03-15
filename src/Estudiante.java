@@ -1,15 +1,12 @@
 // Clase Estudiante: representa a un estudiante con atributos y métodos
-public class Estudiante {
+public class Estudiante extends Persona {
 
     // Atributos de la clase (propiedades del estudiante)
-    private String nombre; // Nombre del estudiante
-    private int edad;      // Edad del estudiante
     private String carrera; // Carrera universitaria del estudiante
 
     // Constructor: se ejecuta al crear un nuevo estudiante
     public Estudiante(String nombre, int edad, String carrera) {
-        this.nombre = nombre;
-        this.edad = edad;
+     super(nombre, edad);
         this.carrera = carrera;
     }
 
